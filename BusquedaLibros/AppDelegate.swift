@@ -1,3 +1,4 @@
+
 //
 //  AppDelegate.swift
 //  BusquedaLibros
@@ -12,6 +13,7 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
+    
     var window: UIWindow?
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		825CC4D01C5EC26B00117072 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825CC4CF1C5EC26B00117072 /* SearchViewController.swift */; };
 		8262D2BA1C582D6F00E18826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262D2B91C582D6F00E18826 /* AppDelegate.swift */; };
 		8262D2BD1C582D6F00E18826 /* BusquedaLibros.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8262D2BB1C582D6F00E18826 /* BusquedaLibros.xcdatamodeld */; };
 		8262D2BF1C582D6F00E18826 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8262D2BE1C582D6F00E18826 /* MasterViewController.swift */; };
@@ -14,9 +15,11 @@
 		8262D2C41C582D6F00E18826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8262D2C21C582D6F00E18826 /* Main.storyboard */; };
 		8262D2C61C582D6F00E18826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8262D2C51C582D6F00E18826 /* Assets.xcassets */; };
 		8262D2C91C582D6F00E18826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8262D2C71C582D6F00E18826 /* LaunchScreen.storyboard */; };
+		82F41EA01C60148E00F4B4FD /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F41E9F1C60148E00F4B4FD /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		825CC4CF1C5EC26B00117072 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		8262D2B61C582D6F00E18826 /* BusquedaLibros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusquedaLibros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8262D2B91C582D6F00E18826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8262D2BC1C582D6F00E18826 /* BusquedaLibros.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusquedaLibros.xcdatamodel; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		8262D2C51C582D6F00E18826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8262D2C81C582D6F00E18826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8262D2CA1C582D6F00E18826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F41E9F1C60148E00F4B4FD /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				8262D2C71C582D6F00E18826 /* LaunchScreen.storyboard */,
 				8262D2CA1C582D6F00E18826 /* Info.plist */,
 				8262D2BB1C582D6F00E18826 /* BusquedaLibros.xcdatamodeld */,
+				825CC4CF1C5EC26B00117072 /* SearchViewController.swift */,
+				82F41E9F1C60148E00F4B4FD /* Book.swift */,
 			);
 			path = BusquedaLibros;
 			sourceTree = "<group>";
@@ -143,6 +149,8 @@
 			files = (
 				8262D2BD1C582D6F00E18826 /* BusquedaLibros.xcdatamodeld in Sources */,
 				8262D2BA1C582D6F00E18826 /* AppDelegate.swift in Sources */,
+				82F41EA01C60148E00F4B4FD /* Book.swift in Sources */,
+				825CC4D01C5EC26B00117072 /* SearchViewController.swift in Sources */,
 				8262D2BF1C582D6F00E18826 /* MasterViewController.swift in Sources */,
 				8262D2C11C582D6F00E18826 /* DetailViewController.swift in Sources */,
 			);
@@ -292,6 +300,7 @@
 				8262D2CF1C582D6F00E18826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
